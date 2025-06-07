@@ -9,4 +9,8 @@ This is a simple command-line calculator built in Java with the help of ChatGPT.
 - Written in pure Java
 
 ## 📁 Project Structure
-
+java-calculator/
+├── src/
+│ └── Calculator.java
+├── .gitignore
+└── README.md

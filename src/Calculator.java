@@ -2,13 +2,13 @@ import java.awt.*;
 import java.awt.event.*;
 import java.lang.Math;
 
-class SciCalcKeyboard extends WindowAdapter implements ActionListener, KeyListener {
+class Calculator extends WindowAdapter implements ActionListener, KeyListener {
     Frame f;
     Label l1;
     double num1 = 0, num2 = 0, result = 0;
     int operator = 0;
 
-    SciCalcKeyboard() {
+    Calculator() {
         f = new Frame("Scientific Calculator (Keyboard Enabled)");
         l1 = new Label();
         l1.setBounds(30, 50, 300, 40);
@@ -151,6 +151,7 @@ class SciCalcKeyboard extends WindowAdapter implements ActionListener, KeyListen
     }
 
     public static void main(String[] args) {
-        new SciCalcKeyboard();
+        new Calculator();
     }
 }
+
